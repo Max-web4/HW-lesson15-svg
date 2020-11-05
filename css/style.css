@@ -47,7 +47,7 @@ body {
   margin-right: 100px;
   margin-top: 50px;
 }
-.title {
+.titles {
   width: 287px;
   height: 46px;
   color: #262626;
@@ -155,4 +155,484 @@ body {
 .aboutUs {
   margin-top: 200px;
   margin-left: 100px;
+}
+
+.services {
+  width: 1500px;
+  height: 790px;
+  background-color: #70bfff;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list {
+  width: 418px;
+  height: 471px;
+}
+.varlist {
+  width: 400px;
+  height: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 76%,
+    rgb(201, 191, 191) 76%,
+    rgba(255, 255, 255, 1) 77%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 10px;
+
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+
+  line-height: 27px;
+  text-align: center;
+  justify-content: space-around;
+  transition: 0.5s;
+}
+object {
+  width: 54px;
+  height: 54px;
+  margin-top: 25px;
+}
+
+.varlist:hover {
+  transform: scale(1.1);
+}
+.varlist > p {
+  width: 238px;
+  height: 46px;
+}
+.titleServices {
+  width: 462px;
+  height: 527px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 90px;
+  font-weight: 700;
+
+  align-items: center;
+  line-height: 27px;
+  text-align: left;
+  background-image: url(../img/tomato.png);
+}
+#signTomato {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  top: 250px;
+  right: 30px;
+}
+
+.gallery {
+  width: 1500px;
+  height: 1536px;
+  background-color: #ffe92f;
+  margin: 0 auto;
+}
+.GallerySign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.titleGallery {
+  width: 394px;
+  height: 67px;
+  color: #313131;
+  font-family: Raleway;
+  font-size: 90px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: center;
+}
+.textGallery {
+  width: 499px;
+  height: 188px;
+  color: #313131;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 25px 25px;
+  grid-template-areas:
+    "plateFruits plateFruits plateFruits plateBlackbarry"
+    "plateFruits plateFruits plateFruits plateSome"
+    "plateMilkBerry plateMilkBerry Hurma Hurma";
+  width: 1183px;
+  height: 991px;
+  margin: 0 auto;
+}
+.plateFruits {
+  grid-area: plateFruits;
+  width: 770px;
+  height: 553px;
+  background-image: url(../img/plate_cuttedFruit.png);
+  box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+}
+.plateBlackbarry {
+  grid-area: plateBlackbarry;
+  width: 370px;
+  height: 260px;
+  background-image: url(../img/plateBlackberry.png);
+  box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+}
+.plateSome {
+  grid-area: plateSome;
+  width: 370px;
+  height: 260px;
+  background-image: url(../img/PlateSomeBerries.png);
+  box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+}
+.plateMilkBerry {
+  grid-area: plateMilkBerry;
+  width: 570px;
+  height: 400px;
+  background-image: url(../img/PlateMilkBlackberry.png);
+  box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+}
+.Hurma {
+  grid-area: Hurma;
+  width: 570px;
+  height: 400px;
+  background-image: url(../img/Hurma.png);
+  box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+}
+.viewMore {
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #0078c2;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 40px;
+  font-weight: 100;
+  color: aliceblue;
+  text-transform: uppercase;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.viewMore a {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 40px;
+  font-weight: 100;
+  color: aliceblue;
+  text-transform: uppercase;
+  opacity: 0.7;
+  text-decoration: none;
+}
+.bgBlackberry {
+  width: 1500px;
+  height: 500px;
+  background-image: url(../img/bg_Blackberries.png);
+  margin: 0 auto;
+}
+.subskribeBlack button {
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  background-color: #00c24a;
+  margin-left: 40px;
+  margin-top: 30px;
+  line-height: 40px;
+  font-weight: 100;
+  color: aliceblue;
+  text-transform: uppercase;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.titleBlack {
+  width: 305px;
+  height: 29px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: right;
+  padding: 50px;
+}
+
+.textBlack {
+  width: 541px;
+  height: 43px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: left;
+  padding: 50px;
+}
+
+.bgBlackberry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subskribeBlack input[type="email"] {
+  grid-area: adress;
+  width: 500px;
+  height: 50px;
+  background-color: #e2ffff;
+  opacity: 0.5;
+  margin-left: 50px;
+}
+
+.blog {
+  width: 1500px;
+  height: 864px;
+  background-color: #b07cf7;
+  margin: 0 auto;
+}
+.inside {
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+.bg {
+  background-image: url(../img/imgg.png);
+  width: 1500px;
+  height: 866px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.grid-containerr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". title title ."
+    "adress adress contacts contacts"
+    "email email contacts contacts"
+    "phone phone . ."
+    "message message . .";
+}
+
+.title {
+  grid-area: title;
+  margin: 0 auto;
+  position: relative;
+  left: -230px;
+}
+
+.adress {
+  grid-area: adress;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+input[type="text"] {
+  grid-area: adress;
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+}
+
+.email {
+  grid-area: email;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+input[type="email"] {
+  grid-area: adress;
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+}
+.phone {
+  grid-area: phone;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+input[type="number"] {
+  grid-area: adress;
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+}
+.message {
+  grid-area: message;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 500px;
+  height: 250px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+}
+.contacts {
+  grid-area: contacts;
+  position: relative;
+  top: -400px;
+
+  width: 317px;
+  height: 160px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 20px;
+
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+}
+.titleSign {
+  width: 337px;
+  height: 65px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 90px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+.text {
+  width: 342px;
+  height: 41px;
+  color: #262626;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1500px;
+  height: 90px;
+  background-color: #262626;
+  align-items: center;
+  margin: 0 auto;
+}
+.main {
+  font-family: "Raleway - Bold";
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.minor {
+  font-family: Raleway - Light;
+  font-weight: 300;
+}
+
+#Cahee {
+  width: 64px;
+  height: 27px;
+  color: #b9b9b9;
+  font-family: Pacifico;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: right;
+}
+
+span {
+  color: #ff2b58;
+  font-family: "Raleway - Bold";
+  font-weight: 700;
+}
+#made {
+  width: 192px;
+  height: 14px;
+  color: #b9b9b9;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+  font-family: "Raleway - Light";
+  font-weight: 300;
+}
+
+#company {
+  width: 300px;
+  height: 16px;
+  color: #b9b9b9;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+}
+
+input:focus {
+  opacity: 1;
+  border-left: 3px solid #262626;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+}
+
+.phoneCont {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+textarea:focus {
+  opacity: 1;
+  border-left: 3px solid #262626;
+}
+
+input[type="number"] {
+  -moz-appearance: text;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
