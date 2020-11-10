@@ -630,3 +630,135 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+
+.sixth-container {
+  width: 1500px;
+  height: 864px;
+  background-color: #b07cf7;
+  margin: 0 auto;
+}
+.header-sixth-container > h1 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.header-sixth-container > p {
+  width: 563px;
+  height: 66px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.date-sixth-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgba(38, 38, 38, 0.5);
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.text-sixth-container {
+  width: 328px;
+  height: 78px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+.author-sixth-container {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+.info-sixth-container {
+  padding: 20px 10px;
+}
+
+.pictures-sixth-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.apples-pictures-sixth-container {
+  background-image: url("../img/apples.png");
+  background-repeat: no-repeat;
+  transition-duration: 0.5s;
+}
+
+.peases-pictures-sixth-container {
+  background-image: url("../img/peases.png");
+  background-repeat: no-repeat;
+  transition-duration: 0.5s;
+}
+
+.raspberries-pictures-sixth-container {
+  background-image: url("../img/raspberries.png");
+  background-repeat: no-repeat;
+  transition-duration: 0.5s;
+}
+
+.buttonBlog button {
+  text-align: center;
+  width: 200px;
+  height: 55px;
+  background-color: #a80b0b;
+  margin-left: 630px;
+  margin-top: 30px;
+  line-height: 40px;
+  font-weight: 100;
+  color: aliceblue;
+  text-transform: uppercase;
+  opacity: 0.7;
+  cursor: pointer;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+
+.buttonBlog button:hover {
+  transform: scale(1.1);
+}
+
+.raspberries-pictures-sixth-container:hover {
+  transform: scale(1.1);
+}
+
+.peases-pictures-sixth-container:hover {
+  transform: scale(1.1);
+}
+
+.apples-pictures-sixth-container:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+}
