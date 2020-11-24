@@ -1,0 +1,858 @@
+@media (min-width: 720px) and (max-width: 1190px) {
+  .wrapper {
+    background-image: url(../img/bg1.png);
+    background-color: rgb(220, 234, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    width: 100%;
+    height: 800px;
+
+    margin: 0 auto;
+  }
+  .top {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    margin: 0 AUTO;
+    position: fixed;
+    background-color: #ebe5de;
+    opacity: 0.95;
+    z-index: 5;
+  }
+  .logo {
+    max-width: 127px;
+    width: 100%;
+    height: 52px;
+    color: #262626;
+    font-family: Pacifico;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .menu {
+    max-width: 1200px;
+    width: 100%;
+    height: 18px;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 70px;
+    margin-top: 50px;
+  }
+  .titles {
+    max-width: 287px;
+    width: 100%;
+    height: 46px;
+    color: #262626;
+    font-family: "Raleway - Heavy";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+    padding: 20px;
+  }
+  .textFresh {
+    max-width: 368px;
+    width: 100%;
+    height: 70px;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+    padding: 20px;
+  }
+  .button {
+    max-width: 200px;
+    width: 100%;
+    height: 55px;
+    background-color: #ff6033;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .article {
+    display: block;
+    max-width: 372px;
+    width: 100%;
+    height: 242px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+  }
+  .menu > a {
+    display: inline;
+    margin-right: 20px;
+  }
+  .menu > a:hover {
+    border-top: 3px solid #ff6033;
+    padding-top: 10px;
+  }
+  #mouse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(100%);
+  }
+
+  #about {
+    margin: 0 AUTO;
+    max-width: 1500px;
+    width: 100%;
+    height: 1000px;
+    background-color: #00c4c4;
+    background-image: radial-gradient(
+      circle 1125px at center,
+      rgba(0, 196, 196, 0.9) 0%,
+      rgba(0, 183, 183, 0.9) 32%,
+      rgba(0, 173, 173, 0.9) 68%,
+      rgba(0, 156, 156, 0.9) 100%
+    );
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    background-image: url(../img/img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 40px;
+    max-width: 650px;
+    width: 100%;
+    height: 650px;
+  }
+  .titleAbout {
+    max-width: 394px;
+    width: 100%;
+    height: 67px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+    z-index: -1;
+  }
+  .textAbout {
+    max-width: 499px;
+    width: 100%;
+    height: 188px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+  }
+  .aboutUs {
+    margin-left: 15%;
+    margin-top: 0%;
+  }
+
+  .services {
+    max-width: 1500px;
+    width: 100%;
+    height: 1090px;
+    background-color: #70bfff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+  }
+
+  .list {
+    max-width: 418px;
+    width: 100%;
+    height: 471px;
+  }
+  .varlist {
+    position: relative;
+    top: 300px;
+    margin-bottom: 50px;
+    max-width: 400px;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 76%,
+      rgb(201, 191, 191) 76%,
+      rgba(255, 255, 255, 1) 77%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    color: #262626;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+
+    line-height: 27px;
+    text-align: center;
+    justify-content: space-around;
+    transition: 0.5s;
+  }
+  object {
+    max-width: 54px;
+    width: 100%;
+    height: 54px;
+    margin-top: 25px;
+  }
+
+  .varlist:hover {
+    transform: scale(1.1);
+  }
+  .varlist > p {
+    max-width: 238px;
+    width: 100%;
+    height: 46px;
+  }
+  .titleServices {
+    max-width: 500px;
+    width: 100%;
+    height: 527px;
+    position: absolute;
+    top: 10px;
+    text-align: left;
+    background-image: url(../img/tomato.png);
+    background-repeat: no-repeat;
+  }
+  #signTomato {
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 77px;
+    position: absolute;
+    top: 150px;
+  }
+
+  .gallery {
+    max-width: 1500px;
+    width: 100%;
+    height: 1536px;
+    background-color: #ffe92f;
+    margin: 0 auto;
+  }
+  .GallerySign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+  }
+
+  .titleGallery {
+    max-width: 394px;
+    width: 100%;
+    height: 67px;
+    color: #313131;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: center;
+  }
+  .textGallery {
+    max-width: 499px;
+    width: 100%;
+    height: 188px;
+    color: #313131;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: center;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1183px;
+    width: 100%;
+    max-height: 1500px;
+    margin: 0 auto;
+  }
+  .plateFruits {
+    max-width: 600px;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(../img/plate_cuttedFruit.png);
+    background-size: cover;
+    box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  .plateBlackbarry {
+    margin: 0 auto;
+    max-width: 260px;
+    width: 100%;
+    height: 260px;
+    background-image: url(../img/plateBlackberry.png);
+    background-size: cover;
+    box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+    display: inline;
+    transform: translateX(65%);
+  }
+  .plateSome {
+    max-width: 320px;
+    width: 100%;
+    height: 260px;
+    background-image: url(../img/PlateSomeBerries.png);
+    box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+    display: inline;
+    margin: 0 auto;
+
+    transform: translateX(-44%) translateY(-111%);
+  }
+  .plateMilkBerry {
+    max-width: 320px;
+    width: 100%;
+    height: 270px;
+    margin: 0 auto;
+    transform: translateY(-110%) translateX(-44%);
+
+    background-image: url(../img/PlateMilkBlackberry.png);
+    box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+  }
+  .Hurma {
+    max-width: 260px;
+    width: 100%;
+    height: 270px;
+    margin: 0 auto;
+    background-image: url(../img/Hurma.png);
+    transform: translateY(-221%) translateX(65%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
+  }
+  .viewMore {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -32%;
+    transform: translateY(-50%);
+  }
+  .viewMore button {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 200px;
+    width: 100%;
+    height: 55px;
+    background-color: #1300c2;
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 40px;
+    font-weight: 100;
+    color: aliceblue;
+    text-transform: uppercase;
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 0 auto;
+    position: absolute;
+    left: 43%;
+    transform: translateY(15%);
+  }
+  .bgBlackberry {
+    max-width: 1200px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/bg_Blackberries.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+  }
+  .subskribeBlack button {
+    text-align: center;
+    max-width: 200px;
+    width: 100%;
+    height: 55px;
+    background-color: #00c24a;
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 40px;
+    font-weight: 100;
+    color: aliceblue;
+    text-transform: uppercase;
+    opacity: 0.7;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 40px;
+  }
+
+  .titleBlack {
+    max-width: 305px;
+    width: 100%;
+    height: 29px;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+    padding: 50px;
+  }
+
+  .textBlack {
+    max-width: 541px;
+    width: 100%;
+    height: 43px;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+    padding: 50px;
+  }
+
+  .bgBlackberry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .subskribeBlack input[type="email"] {
+    grid-area: adress;
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+    background-color: #e2ffff;
+    opacity: 0.5;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+
+  .blog {
+    max-width: 1500px;
+    width: 100%;
+    height: 864px;
+    background-color: #b07cf7;
+    margin: 0 auto;
+  }
+  .inside {
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 150px;
+  }
+  .bg {
+    background-image: url(../img/imgg.png);
+    max-width: 1200px;
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .grid-containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .title {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+  }
+
+  .adress {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  input[type="text"] {
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+  }
+
+  .email {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  input[type="email"] {
+    grid-area: adress;
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+  }
+  .phone {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  input[type="number"] {
+    grid-area: adress;
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+  }
+  .message {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  textarea {
+    max-width: 500px;
+    min-width: 400px;
+    width: 100%;
+    height: 250px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+  }
+  .contacts {
+    margin: 0 auto;
+    position: absolute;
+    top: 105%;
+    max-width: 317px;
+    width: 100%;
+    height: 160px;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 20px;
+
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+  }
+  .titleSign {
+    max-width: 337px;
+    width: 100%;
+    height: 65px;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+  .text {
+    max-width: 342px;
+    width: 100%;
+    height: 41px;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  #footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1500px;
+    width: 100%;
+    height: 90px;
+    background-color: #262626;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .main {
+    font-family: "Raleway - Bold";
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .minor {
+    font-family: Raleway - Light;
+    font-weight: 300;
+  }
+
+  #Cahee {
+    max-width: 64px;
+    width: 100%;
+    height: 27px;
+    color: #b9b9b9;
+    font-family: Pacifico;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: right;
+  }
+
+  span {
+    color: #ff2b58;
+    font-family: "Raleway - Bold";
+    font-weight: 700;
+  }
+  #made {
+    max-width: 192px;
+    width: 100%;
+    height: 14px;
+    color: #b9b9b9;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+    font-family: "Raleway - Light";
+    font-weight: 300;
+  }
+
+  #company {
+    max-width: 300px;
+    width: 100%;
+    height: 16px;
+    color: #b9b9b9;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  input:focus {
+    opacity: 1;
+    border-left: 3px solid #262626;
+  }
+
+  input,
+  textarea {
+    outline: none;
+    border: none;
+  }
+
+  .phoneCont {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  textarea:focus {
+    opacity: 1;
+    border-left: 3px solid #262626;
+  }
+
+  input[type="number"] {
+    -moz-appearance: text;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .sixth-container {
+    max-width: 1200px;
+    width: 100%;
+    height: 1400px;
+    background-color: #b07cf7;
+    margin: 0 auto;
+  }
+  .header-sixth-container > h1 {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .header-sixth-container > p {
+    max-width: 563px;
+    width: 100%;
+    height: 66px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .date-sixth-container {
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.5);
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .text-sixth-container {
+    max-width: 328px;
+    width: 100%;
+    height: 78px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 10px;
+  }
+
+  .author-sixth-container {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: -30px;
+    margin-left: 10px;
+  }
+
+  .info-sixth-container {
+    padding: 20px 10px;
+  }
+
+  .pictures-sixth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .apples-pictures-sixth-container {
+    background-image: url("../img/apples.png");
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    margin-bottom: 25px;
+  }
+
+  .peases-pictures-sixth-container {
+    background-image: url("../img/peases.png");
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    margin-bottom: 25px;
+  }
+
+  .raspberries-pictures-sixth-container {
+    background-image: url("../img/raspberries.png");
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+  }
+
+  .buttonBlog {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .buttonBlog button {
+    text-align: center;
+    max-width: 200px;
+    width: 100%;
+    height: 55px;
+    background-color: #a80b0b;
+    margin: 0 auto;
+    line-height: 40px;
+    font-weight: 100;
+    color: aliceblue;
+    text-transform: uppercase;
+    opacity: 0.7;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    position: absolute;
+    left: 38%;
+    transform: translateY(35%);
+  }
+
+  .buttonBlog button:hover {
+    transform: scale(1.1) translateY(35%);
+  }
+
+  .raspberries-pictures-sixth-container:hover {
+    transform: scale(1.1);
+  }
+
+  .peases-pictures-sixth-container:hover {
+    transform: scale(1.1);
+  }
+
+  .apples-pictures-sixth-container:hover {
+    transform: scale(1.1);
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

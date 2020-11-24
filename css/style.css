@@ -1,3 +1,5 @@
+@import url("./media.css");
+
 body {
   margin: 0 AUTO;
   padding: 0;
@@ -7,12 +9,14 @@ body {
 }
 .wrapper {
   background-image: url(../img/bg1.png);
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 1000px;
   margin: 0 auto;
 }
 .top {
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   display: flex;
   margin: 0 AUTO;
   position: fixed;
@@ -21,7 +25,8 @@ body {
   z-index: 5;
 }
 .logo {
-  width: 127px;
+  max-width: 127px;
+  width: 100%;
   height: 52px;
   color: #262626;
   font-family: Pacifico;
@@ -36,7 +41,8 @@ body {
 }
 
 .menu {
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 18px;
   color: #262626;
   font-family: Raleway;
@@ -51,7 +57,8 @@ body {
   margin-top: 50px;
 }
 .titles {
-  width: 287px;
+  max-width: 287px;
+  width: 100%;
   height: 46px;
   color: #262626;
   font-family: "Raleway - Heavy";
@@ -64,7 +71,8 @@ body {
   padding: 20px;
 }
 .textFresh {
-  width: 368px;
+  max-width: 368px;
+  width: 100%;
   height: 70px;
   color: #262626;
   font-family: Raleway;
@@ -77,7 +85,8 @@ body {
   padding: 20px;
 }
 .button {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 55px;
   background-color: #ff6033;
   color: #ffffff;
@@ -94,7 +103,8 @@ body {
 }
 .article {
   display: block;
-  width: 372px;
+  max-width: 372px;
+  width: 100%;
   height: 242px;
   position: relative;
   top: 350px;
@@ -109,13 +119,16 @@ body {
   padding-top: 10px;
 }
 #mouse {
-  margin-left: 620px;
-  margin-top: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(100%);
 }
 
 #about {
   margin: 0 AUTO;
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 700px;
   background-color: #00c4c4;
   background-image: radial-gradient(
@@ -129,10 +142,15 @@ body {
   display: flex;
 }
 .image {
+  background-image: url(../img/img.png);
+  background-repeat: no-repeat;
   padding-top: 40px;
+  max-width: 647px;
+  width: 100%;
 }
 .titleAbout {
-  width: 394px;
+  max-width: 394px;
+  width: 100%;
   height: 67px;
   color: #ffffff;
   font-family: Raleway;
@@ -144,7 +162,8 @@ body {
   text-align: left;
 }
 .textAbout {
-  width: 499px;
+  max-width: 499px;
+  width: 100%;
   height: 188px;
   color: #ffffff;
   font-family: Raleway;
@@ -161,7 +180,8 @@ body {
 }
 
 .services {
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 790px;
   background-color: #70bfff;
   margin: 0 auto;
@@ -171,11 +191,13 @@ body {
 }
 
 .list {
-  width: 418px;
+  max-width: 418px;
+  width: 100%;
   height: 471px;
 }
 .varlist {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   height: 100px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   background: linear-gradient(
@@ -202,7 +224,8 @@ body {
   transition: 0.5s;
 }
 object {
-  width: 54px;
+  max-width: 54px;
+  width: 100%;
   height: 54px;
   margin-top: 25px;
 }
@@ -211,33 +234,40 @@ object {
   transform: scale(1.1);
 }
 .varlist > p {
-  width: 238px;
+  max-width: 238px;
+  width: 100%;
   height: 46px;
 }
 .titleServices {
-  width: 462px;
+  max-width: 500px;
+  width: 100%;
   height: 527px;
+  position: relative;
+  text-align: left;
+  background-image: url(../img/tomato.png);
+  background-repeat: no-repeat;
+}
+#signTomato {
+  max-width: 500px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: #ffffff;
   font-family: Raleway;
   font-size: 90px;
   font-weight: 700;
-
-  align-items: center;
-  line-height: 27px;
-  text-align: left;
-  background-image: url(../img/tomato.png);
-}
-#signTomato {
-  width: 800px;
-  height: 100px;
-  display: flex;
-  position: relative;
-  top: 250px;
-  right: 30px;
+  text-align: center;
+  line-height: 77px;
+  position: absolute;
+  top: 100px;
 }
 
 .gallery {
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 1536px;
   background-color: #ffe92f;
   margin: 0 auto;
@@ -250,7 +280,8 @@ object {
 }
 
 .titleGallery {
-  width: 394px;
+  max-width: 394px;
+  width: 100%;
   height: 67px;
   color: #313131;
   font-family: Raleway;
@@ -262,7 +293,8 @@ object {
   text-align: center;
 }
 .textGallery {
-  width: 499px;
+  max-width: 499px;
+  width: 100%;
   height: 188px;
   color: #313131;
   font-family: Raleway;
@@ -282,51 +314,62 @@ object {
     "plateFruits plateFruits plateFruits plateBlackbarry"
     "plateFruits plateFruits plateFruits plateSome"
     "plateMilkBerry plateMilkBerry Hurma Hurma";
-  width: 1183px;
-  height: 991px;
+  max-width: 1183px;
+  width: 100%;
+  max-height: 991px;
   margin: 0 auto;
 }
 .plateFruits {
   grid-area: plateFruits;
-  width: 770px;
+  max-width: 6fr;
+  width: 100%;
   height: 553px;
   background-image: url(../img/plate_cuttedFruit.png);
   box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
 }
 .plateBlackbarry {
   grid-area: plateBlackbarry;
-  width: 370px;
+  max-width: 1fr;
+  width: 100%;
   height: 260px;
   background-image: url(../img/plateBlackberry.png);
   box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
 }
 .plateSome {
   grid-area: plateSome;
-  width: 370px;
+  max-width: 1fr;
+  width: 100%;
   height: 260px;
   background-image: url(../img/PlateSomeBerries.png);
   box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
 }
 .plateMilkBerry {
   grid-area: plateMilkBerry;
-  width: 570px;
+  max-width: 2fr;
+  width: 100%;
   height: 400px;
   background-image: url(../img/PlateMilkBlackberry.png);
   box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
 }
 .Hurma {
   grid-area: Hurma;
-  width: 570px;
+  max-width: 2fr;
+  width: 100%;
   height: 400px;
   background-image: url(../img/Hurma.png);
   box-shadow: -19px 7px 50px 1px rgba(0, 0, 0, 0.3);
 }
 .viewMore {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 .viewMore button {
   margin: 0 auto;
   text-align: center;
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 55px;
   background-color: #1300c2;
   margin-left: 40px;
@@ -337,19 +380,22 @@ object {
   text-transform: uppercase;
   opacity: 0.7;
   cursor: pointer;
-  position: relative;
-  left: 600px;
-  font-size: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 43%;
+  transform: translateY(15%);
 }
 .bgBlackberry {
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 500px;
   background-image: url(../img/bg_Blackberries.png);
   margin: 0 auto;
 }
 .subskribeBlack button {
   text-align: center;
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 55px;
   background-color: #00c24a;
   margin-left: 40px;
@@ -364,7 +410,8 @@ object {
 }
 
 .titleBlack {
-  width: 305px;
+  max-width: 305px;
+  width: 100%;
   height: 29px;
   color: #262626;
   font-family: Raleway;
@@ -376,7 +423,8 @@ object {
 }
 
 .textBlack {
-  width: 541px;
+  max-width: 541px;
+  width: 100%;
   height: 43px;
   color: #262626;
   font-family: Raleway;
@@ -397,7 +445,8 @@ object {
 
 .subskribeBlack input[type="email"] {
   grid-area: adress;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 50px;
   background-color: #e2ffff;
   opacity: 0.5;
@@ -405,7 +454,8 @@ object {
 }
 
 .blog {
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 864px;
   background-color: #b07cf7;
   margin: 0 auto;
@@ -418,7 +468,8 @@ object {
 }
 .bg {
   background-image: url(../img/imgg.png);
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 866px;
   margin: 0 auto;
   padding: 0;
@@ -426,8 +477,8 @@ object {
 
 .grid-containerr {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-template-areas:
     ". title title ."
@@ -435,13 +486,13 @@ object {
     "email email contacts contacts"
     "phone phone . ."
     "message message . .";
+  position: relative;
 }
 
 .title {
   grid-area: title;
   margin: 0 auto;
-  position: relative;
-  left: -230px;
+  transform: translateX(-50%);
 }
 
 .adress {
@@ -451,7 +502,8 @@ object {
 }
 input[type="text"] {
   grid-area: adress;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 50px;
   background-color: #00c4c4;
   opacity: 0.5;
@@ -465,7 +517,8 @@ input[type="text"] {
 
 input[type="email"] {
   grid-area: adress;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 50px;
   background-color: #00c4c4;
   opacity: 0.5;
@@ -477,7 +530,8 @@ input[type="email"] {
 }
 input[type="number"] {
   grid-area: adress;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 50px;
   background-color: #00c4c4;
   opacity: 0.5;
@@ -489,7 +543,9 @@ input[type="number"] {
 }
 
 textarea {
-  width: 500px;
+  max-width: 500px;
+  min-width: 400px;
+  width: 100%;
   height: 250px;
   background-color: #00c4c4;
   opacity: 0.5;
@@ -499,7 +555,8 @@ textarea {
   position: relative;
   top: -400px;
 
-  width: 317px;
+  max-width: 317px;
+  width: 100%;
   height: 160px;
   color: #262626;
   font-family: Raleway;
@@ -511,7 +568,8 @@ textarea {
   text-align: left;
 }
 .titleSign {
-  width: 337px;
+  max-width: 337px;
+  width: 100%;
   height: 65px;
   color: #262626;
   font-family: Raleway;
@@ -525,7 +583,8 @@ textarea {
   margin: 0 auto;
 }
 .text {
-  width: 342px;
+  max-width: 342px;
+  width: 100%;
   height: 41px;
   color: #262626;
   font-family: Raleway;
@@ -542,7 +601,8 @@ textarea {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 90px;
   background-color: #262626;
   align-items: center;
@@ -560,7 +620,8 @@ textarea {
 }
 
 #Cahee {
-  width: 64px;
+  max-width: 64px;
+  width: 100%;
   height: 27px;
   color: #b9b9b9;
   font-family: Pacifico;
@@ -578,7 +639,8 @@ span {
   font-weight: 700;
 }
 #made {
-  width: 192px;
+  max-width: 192px;
+  width: 100%;
   height: 14px;
   color: #b9b9b9;
   font-family: Raleway;
@@ -593,7 +655,8 @@ span {
 }
 
 #company {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: 16px;
   color: #b9b9b9;
   font-family: Raleway;
@@ -635,7 +698,8 @@ input::-webkit-inner-spin-button {
 }
 
 .sixth-container {
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   height: 864px;
   background-color: #b07cf7;
   margin: 0 auto;
@@ -651,7 +715,8 @@ input::-webkit-inner-spin-button {
 }
 
 .header-sixth-container > p {
-  width: 563px;
+  max-width: 563px;
+  width: 100%;
   height: 66px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -664,7 +729,8 @@ input::-webkit-inner-spin-button {
 }
 
 .date-sixth-container {
-  width: 60px;
+  max-width: 60px;
+  width: 100%;
   height: 60px;
   border-radius: 5px;
   background-color: rgba(38, 38, 38, 0.5);
@@ -680,7 +746,8 @@ input::-webkit-inner-spin-button {
 }
 
 .text-sixth-container {
-  width: 328px;
+  max-width: 328px;
+  width: 100%;
   height: 78px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -729,13 +796,20 @@ input::-webkit-inner-spin-button {
   transition-duration: 0.5s;
 }
 
+.buttonBlog {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
 .buttonBlog button {
   text-align: center;
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 55px;
   background-color: #a80b0b;
-  margin-left: 630px;
-  margin-top: 30px;
+  margin: 0 auto;
   line-height: 40px;
   font-weight: 100;
   color: aliceblue;
@@ -744,10 +818,13 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
   font-size: 20px;
   transition-duration: 0.5s;
+  position: absolute;
+  left: 43%;
+  transform: translateY(35%);
 }
 
 .buttonBlog button:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) translateY(35%);
 }
 
 .raspberries-pictures-sixth-container:hover {
